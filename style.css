@@ -1,0 +1,228 @@
+body {
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Domine', serif;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Splash', cursive;
+    font-family: 'The Nautigal', cursive;
+    font-family: 'Titan One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: rgb(255, 255, 255);
+    line-height: 0.7rem;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.61);
+    line-height: 1.3rem;
+}
+
+.paragraph-1 {
+    font-size: 17px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    line-height: 0.8rem;
+}
+
+.paragraph-2 {
+    color: rgba(0, 0, 0, 0.412);
+    line-height: 0.5rem;
+}
+
+hr {
+    margin: 0 21% 0 21%;
+}
+.first-section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 12%, rgba(0, 0, 0, 1) 100%), url(images/donation15.jpg);
+    padding: 210px;
+    text-align: center;
+}
+
+.anchor {
+    background-image: linear-gradient(tomato, red);
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 40px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.second-section {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.payment-button {
+    display: flex;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 3rem;
+}
+
+.buttons {
+    display: flex;
+    color: gray;
+    font-weight: 600;
+    font-size: 2vw;
+    padding: 35px;
+    border: none;
+    border-radius: 3px;
+    background: #eeeded;
+}
+
+.buttons:hover {
+    border: 2px solid red;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0.292);
+}
+
+#second-section-last-para {
+    color: rgba(0, 0, 0, 0.333);
+    text-align: center;
+}
+
+.third-section {
+    text-align: center;
+}
+
+.donation-plan {
+    display: flex;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.plans {
+    margin: 1.5%;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+#food {
+    background-color: #EEF5F6;
+}
+
+#shelter {
+    background-color: #FFEEEF;
+}
+
+#education {
+    background-color: #FFF5D6;
+}
+
+.fourth-section {
+    width: 40%;
+    margin-left: 11%;
+}
+
+.fourth-section h2, .fourth-section p{
+    text-align: left;
+}
+
+.fourth-section p {
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.how-to {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(tomato, red);
+    border-radius: 5px;
+    padding: 25px 45px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.flex-one {
+    display: flex;
+    padding: 150px 150px 0 0;
+}
+
+.poor-people {
+    height: 500px;
+    width: 500px;
+    left: 200px;
+}
+
+.mail-section {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#mail-header {
+    line-height: 0.5rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF5D6;
+    margin: 0 20%;
+    height: 23vh;
+}
+
+.form-box {
+    padding: 0;
+    border-radius: 5px;
+    background: rgb(209, 207, 207);
+}
+
+.form-box input {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px 15px;
+    background: rgb(209, 207, 207);
+}
+
+.form-box button {
+    font-size: 18px;
+    color: white;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(tomato, red);
+}
+
+footer {
+    margin-top: 150px;
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+}
+
+footer h3 {
+    color: rgb(226, 28, 48);
+}
